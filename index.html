@@ -29,40 +29,42 @@
 
             <form action="#">
                 <div class="register-form">
-                <h3>Let's do this!</h3>
-                <div class="form-control">
-                    <div class="input-group">
-                        <label for="firstName" >first name</label>
-                        <input type="text" name="firstName" required>
-                    </div>
-            
-                    <div class="input-group">
-                        <label for="lastName" >last name</label>
-                        <input type="text" name="lastName" required>
-                    </div>
+                    <h3>Let's do this!</h3>
+                    <div class="form-control">
+                        <div class="input-group">
+                            <label for="firstName" >first name</label>
+                            <input type="text" name="firstName" value="Thor" required>
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="lastName" >last name</label>
+                            <input type="text" name="lastName"  value="Odinson" required>
+                        </div>
 
-                    <div class="input-group">
-                        <label for="email" >email</label>
-                        <input type="email" name="email" required>
-                    </div>
+                        <div class="input-group">
+                            <label for="email" >email</label>
+                            <input type="email" name="email" required>
+                        </div>
 
-                    <div class="input-group">
-                        <label for="phone" >phone number</label>
-                        <input type="tel" name="phone" required>
-                    </div>
+                        <div class="input-group">
+                            <label for="phone" >phone number</label>
+                            <input type="tel" name="phone" required>
+                        </div>
 
-                    <div class="input-group">
-                        <label for="password" >password</label>
-                        <input type="password" name="password" required>
-                    </div>
+                        <div class="input-group">
+                            <label for="password" >password</label>
+                            <input type="password" name="password"  class="input-error" required>
+                            <span class="error-msg">* Passwords do not match</span>
+                        </div>
 
-                    <div class="input-group">
-                        <label for="confirmPassword" >confirm password</label>
-                        <input type="password" name="confirmPassword" required>
+                        <div class="input-group">
+                            <label for="confirmPassword" >confirm password</label>
+                            <input type="password" name="confirmPassword" class="input-error" required >
+                        </div>
                     </div>
                 </div>
 
-                <div class="register-button">
+                <div class="register-action">
                     <button type="submit" class="btn-submit">Create Account</button>
                     <span>Already have an account? <a href="#">Log in</a></span>
                 </div>

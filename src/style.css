@@ -70,7 +70,7 @@ body {
 }
 
 .logo {
-	background-color: rgba(92, 92, 92, 0.5);
+	background-color: rgba(41, 40, 40, 0.5);
 	position: absolute;
 	width: 100%;
 	top: 25%;
@@ -113,6 +113,7 @@ body {
 
 .register-form {
 	background-color: white;
+	padding-bottom: 30px;
 }
 
 .register-form h3 {
@@ -146,8 +147,6 @@ body {
 
 }
 
-
-
 .input-group {
 	margin-top: 25px;
 	display: flex;
@@ -161,20 +160,88 @@ body {
 	letter-spacing: 1.3px;
 	font-weight: 500;
 	color: #6E757E;
+	margin-bottom: 5px;
 }
 
 .input-group input {
 	max-width: 250px;
 	height: 25px;
 	border: 1px solid #E5E7EB;
-	border-radius: 5%;
+	border-radius: 5px;
+	font-size: 15px;
+	padding-left: 10px;
 }
 
+.input-group input {
+	max-width: 250px;
+	height: 25px;
+	border: 1px solid #E5E7EB;
+	border-radius: 5px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+
+
+
+.input-group input:focus {
+	outline: 1px solid blue;
+	box-shadow: 0px 0px 3px rgba(0,0,0, 02);
+}
+
+.input-group .input-error {
+	outline: 1px solid darkred;
+}
+
+.input-group input:error {
+	outline: 1px solid darkred;
+}
+
+.error-msg {
+	font-size: 12px;
+	color: darkred;
+	padding-top: 5px;
+}
+
+
+
+
+
+.register-action {
+	padding-left: 50px;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
 
 .btn-submit {
 	background-color: #596D48;
 	color: white;
+	padding: 16px;
+	max-width: 250px;
+	border-radius: 10px;
+	border: none;
+	font-size: 17px;
+	font-weight: 600;
+	box-shadow: 0px 0px 2px rgba(0,0,0, 02);
 }
+
+.btn-submit:focus {
+	background-color: #838b7c;
+	
+}
+
+.register-action span {
+	padding-top: 32px;
+}
+
+.register-action a {
+	color: #596D48;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
 /* end form section */
 
 
