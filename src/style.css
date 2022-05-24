@@ -56,20 +56,53 @@ body {
     margin: 0 10%;
 }
 
-.left-panel {
-    flex: 0 0 30%;
-    background-image: url('img/background.jpg');
+/* left panel section */
 
+.left-panel {
+    flex: 0 0 35%;
+    background-image: url('img/background.jpg');
+	position: relative;
 }
+
+.logo {
+	background-color: rgba(92, 92, 92, 0.5);
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+}
+.logo img {
+	width: 90px;
+}
+
+@font-face {
+	font-family: norse-bold;
+	src: url(fonts/Norse-Bold.otf);
+}
+
+.text-logo {
+	font-size: 6rem;
+	font-family: norse-bold;
+	color: white;
+}
+
+
+/* end left section */
 
 .right-panel {
     display: flex;
 	flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 0 0 70%;
+    flex: 0 0 65%;
     background-color: #F9FAFB;
 }
+
+
+/* register section */
 
 .register-form {
 	background-color: whitesmoke;
@@ -82,9 +115,7 @@ body {
 
 .form-control {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	flex-direction: row;
 	height: 300px;
 }
 
@@ -92,3 +123,7 @@ body {
 	flex: 0 0 50%;
 
 }
+
+
+
+
