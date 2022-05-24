@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form (The Odin Project)</title>
     <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -19,8 +21,10 @@
 
         <div class="right-panel">
             <div class="text-header">
-                <h2>this is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h2>
-                <h2>You know you want to.</h2>
+                <h2>this is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>
+                    now
+                </em> to get started.</h2>
+                <h2>You <em>know</em> you want to.</h2>
             </div>
 
             <form action="#">
@@ -28,43 +32,38 @@
                 <h3>Let's do this!</h3>
                 <div class="form-control">
                     <div class="input-group">
-                        <label for="firstName" class="input-label">first name</label>
+                        <label for="firstName" >first name</label>
                         <input type="text" name="firstName" required>
                     </div>
             
                     <div class="input-group">
-                        <label for="lastName" class="input-label">last name</label>
-                        <input type="text" name="lastName" required>
-                    </div>
-                    
-                    <div class="input-group">
-                        <label for="lastName" class="input-label">last name</label>
+                        <label for="lastName" >last name</label>
                         <input type="text" name="lastName" required>
                     </div>
 
                     <div class="input-group">
-                        <label for="email" class="input-label">email</label>
+                        <label for="email" >email</label>
                         <input type="email" name="email" required>
                     </div>
 
                     <div class="input-group">
-                        <label for="phone" class="input-label">phone number</label>
+                        <label for="phone" >phone number</label>
                         <input type="tel" name="phone" required>
                     </div>
 
                     <div class="input-group">
-                        <label for="password" class="input-label">password</label>
+                        <label for="password" >password</label>
                         <input type="password" name="password" required>
                     </div>
 
                     <div class="input-group">
-                        <label for="confirmPassword" class="input-label">confirm password</label>
+                        <label for="confirmPassword" >confirm password</label>
                         <input type="password" name="confirmPassword" required>
                     </div>
                 </div>
 
                 <div class="register-button">
-                    <button type="submit">Create Account</button>
+                    <button type="submit" class="btn-submit">Create Account</button>
                     <span>Already have an account? <a href="#">Log in</a></span>
                 </div>
             </form>

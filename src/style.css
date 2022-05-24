@@ -2,7 +2,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -46,6 +46,11 @@ table {
 
 body {
     background-color: lightgrey;
+	font-family:  'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+	color: #171717;
+	
 }
 
 .container {
@@ -95,35 +100,82 @@ body {
 .right-panel {
     display: flex;
 	flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-top: 10rem;
     flex: 0 0 65%;
-    background-color: #F9FAFB;
+    background-color: #f9fafb;
+	
 }
+
 
 
 /* register section */
 
+
 .register-form {
-	background-color: whitesmoke;
+	background-color: white;
+}
+
+.register-form h3 {
+	padding-top: 20px;
+	margin-left: 50px;
+	font-size: 23px;
+	font-weight: 500;
+	color: #222C3A;
 }
 
 .text-header {
 	font-size: 24px;
 	font-weight: 600;
+	margin: 0 5%;
+	max-width: 700px;
+
 }
+
+
+.text-header h2:last-child {
+	margin: 2rem 0 4rem 0;
+}
+
+
+/* input form section  */
 
 .form-control {
 	display: flex;
 	flex-wrap: wrap;
-	height: 300px;
+	margin: 0 50px;
+
 }
+
+
 
 .input-group {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
 	flex: 0 0 50%;
-
 }
 
+.input-group label {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 1.3px;
+	font-weight: 500;
+	color: #6E757E;
+}
+
+.input-group input {
+	max-width: 250px;
+	height: 25px;
+	border: 1px solid #E5E7EB;
+	border-radius: 5%;
+}
+
+
+.btn-submit {
+	background-color: #596D48;
+	color: white;
+}
+/* end form section */
 
 
 
